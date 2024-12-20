@@ -1,0 +1,303 @@
+@charset "UTF-8";
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    background: #FFB3C6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.header .logo {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+.header .logo img{
+	width: 100px;
+	height: auto;
+}
+
+.header .logo span {
+    color: #ff006e;
+}
+
+.header .navbar{
+	display: flex;
+	align-items: center;
+}
+
+.header .navbar .right-links{
+	margin-left: auto;
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: #333;
+    font-weight: bold;
+	margin-right: 1rem;
+	text-decoration: none;
+	transition: color 0.3s ease;
+    
+}
+
+.header .navbar a:last-child{
+	margin-right: 0;
+}
+
+.header .navbar a:hover {
+    color: #ff006e;
+}
+
+
+form {
+	width: 450px;
+	margin: 140px auto;
+	padding: 20px;
+	font-size: 15px;
+	color: white;
+	border-radius: 5px;
+	background: transparent;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(150px);
+	justify-content: center;
+}
+
+h2{
+	border: none;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea{
+	width: 95%;
+	padding: 10px;
+	margin-bottom: 8px;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	background: transparent;
+	color: white;
+	text-indent: 30px;
+}
+
+.input-box{
+	position: relative;
+}
+
+.input-box i{
+	position: absolute;
+	top: 45%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.input-box i{
+	position: absolute;
+	top: 45%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+input[type="submit"]{
+	background-color: #0056b3;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover{
+	background-color: #0056b3;
+}
+
+label{
+	font-weight: bold;
+	color: white;
+}
+
+
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+}
+
+.content h1{
+	font-size: 70px;
+	margin-top: 80px;
+}
+
+.content p{
+	margin: 20px auto;
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+.order{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+table{
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-bottom: 15%;
+	margin-right: 5%;
+	background-color: #ffffff;
+	border-collapse: collapse;
+}
+
+td{
+	margin-top: 10px;
+	border: 3px solid black;
+	padding: 5px;
+	text-align: center;
+
+}
+
+th{
+	margin-top: 10px;
+	border: 3px solid black;
+	padding: 5px;
+	background: rgb(52, 232, 158);
+	background: #FFC55A;
+	text-align: center;
+	color: white;
+}
+
+td h1{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+td h4{
+	width: 180px;
+	margin-left: 18%;
+}
+
+td h3{ 
+	margin-left: 10%;
+}
+
+.read button{ 
+	margin-left: 40%;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	background-color: #051650;
+	transition: background-color 0.3s, transform 0.3s;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    background-color: #000;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+    color: #000;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a {
+    color: #000;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: #fff;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

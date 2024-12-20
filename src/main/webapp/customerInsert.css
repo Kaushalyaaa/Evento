@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/bd.jpg');
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+input[type="date"],
+input[type="number"]{
+	margin-right: 10px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+label[for="mealpreference"]{
+	display:block;
+	font-weight : bold;
+	margin-bottom : 5px;
+}
+label[for="veg"], label [for="nonveg"]{
+	display:inline-black;
+	margin-right : 10px;
+}
+
+input[type="submit"] {
+    background-color: #ed6c9c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ea428b;
+}
+.home-btn {
+    background-color: #ed6c9c; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+}
+
+.try-again-btn:hover {
+    background-color: #ea428b; 
+}
+
+
+    .confirmation {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+    }
+
+    .confirmation p {
+        margin: 0;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .confirmation button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        background-color: #ff006e;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+	

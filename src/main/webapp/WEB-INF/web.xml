@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd ">
+		 	
+		<servlet>
+			<servlet-name>customerInsert</servlet-name>
+			<servlet-class>com.customer.CustomerInsert</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>customerInsert</servlet-name>
+			<url-pattern>/insert</url-pattern>
+		</servlet-mapping>
+		<servlet>
+			<servlet-name>updateCustomer</servlet-name>
+			<servlet-class>com.customer.UpdateCustomerServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>updateCustomer</servlet-name>
+			<url-pattern>/Update</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>deletecustomer</servlet-name>
+			<servlet-class>com.customer.deleteCustomerServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			
+			<servlet-name>deletecustomer</servlet-name>
+			<url-pattern>/delete</url-pattern>	
+		</servlet-mapping>
+		
+		
+		
+		<servlet>
+    		<servlet-name>StaffingInsert</servlet-name>
+    		<servlet-class>com.staffing.StaffingInsert</servlet-class>
+  		</servlet>
+  		<servlet-mapping>
+    		<servlet-name>StaffingInsert</servlet-name>
+    		<url-pattern>/Insert</url-pattern>
+  		</servlet-mapping>
+		
+		<servlet>
+   		<servlet-name>UpdateStaff</servlet-name>
+    		<servlet-class>com.staffing.UpdateStaff</servlet-class>
+  		</servlet>
+  
+  		<servlet-mapping>
+    		<servlet-name>UpdateStaff</servlet-name>
+    		<url-pattern>/Staffupdate</url-pattern>
+  		</servlet-mapping>
+		
+		<servlet>
+   			<servlet-name>DeleteStaff</servlet-name>
+    		<servlet-class>com.staffing.DeleteStaff</servlet-class>
+  		</servlet>
+  
+  		<servlet-mapping>
+    		<servlet-name>DeleteStaff</servlet-name>
+    		<url-pattern>/Staffdelete</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+    		<servlet-name>LoginServlet</servlet-name>
+    		<servlet-class>com.staffing.LoginServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+    		<servlet-name>LoginServlet</servlet-name>
+    		<url-pattern>/Log</url-pattern>
+		</servlet-mapping>
+  		
+  		<servlet>
+			<servlet-name>eventinsert</servlet-name> 
+			<servlet-class>com.event.Eventinsert</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>eventinsert</servlet-name>
+			<url-pattern>/Einsert</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name> updateEvent</servlet-name>
+			<servlet-class>com.event.UpdateEventServlet</servlet-class>
+		</servlet>
+	
+		<servlet-mapping>
+			<servlet-name>updateEvent</servlet-name>
+			<url-pattern>/Eventupdate</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>deleteEvent</servlet-name>
+			<servlet-class>com.event.DeleteEventServlet</servlet-class>
+		</servlet>
+	
+		<servlet-mapping>
+			<servlet-name>deleteEvent</servlet-name>
+			<url-pattern>/Edelete</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+    		<servlet-name>LoginservletE</servlet-name>
+    		<servlet-class>com.event.LoginservletE</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+    		<servlet-name>LoginservletE</servlet-name>
+    		<url-pattern>/Adminlogin</url-pattern>
+		</servlet-mapping>
+		
+		
+		<servlet>
+    		<servlet-name>InsertCustomer</servlet-name>
+    		<servlet-class>com.details.InsertCustomer</servlet-class>
+  		</servlet>
+  
+  		<servlet-mapping>
+    		<servlet-name>InsertCustomer</servlet-name>
+    		<url-pattern>/Input</url-pattern>
+  		</servlet-mapping>
+		
+		<servlet>
+        	<servlet-name>UpdateExhibitor</servlet-name>
+    		<servlet-class>com.details.UpdateExhibitor</servlet-class>
+  		</servlet>
+  		
+  		<servlet-mapping>
+    		<servlet-name>UpdateExhibitor</servlet-name>
+    		<url-pattern>/UpdateE</url-pattern>
+  		</servlet-mapping>
+  		
+  		<servlet>
+        	<servlet-name>DeleteExhibitor</servlet-name>
+    		<servlet-class>com.details.DeleteExhibitor</servlet-class>
+  		</servlet>
+  	
+  		<servlet-mapping>
+    		<servlet-name>DeleteExhibitor</servlet-name>
+    		<url-pattern>/DeleteE</url-pattern>
+  		</servlet-mapping>
+	
+</web-app>
